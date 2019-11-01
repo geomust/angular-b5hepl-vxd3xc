@@ -8,6 +8,6 @@ import { Output, EventEmitter } from '@angular/core';
   styleUrls: ['./product-alerts.component.css']
 })
 export class ProductAlertsComponent {
-  @Input() product;
+  @Input() produs;
   @Output() notify = new EventEmitter();
 }

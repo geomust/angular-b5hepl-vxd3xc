@@ -10,8 +10,8 @@ export class CartService {
     private http: HttpClient
   ) {}
 
-  addToCart(product) {
-    this.items.push(product);
+  addToCart(produs) {
+    this.items.push(produs);
   }
 
   getItems() {

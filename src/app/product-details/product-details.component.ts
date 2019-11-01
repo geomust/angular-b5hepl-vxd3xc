@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { products } from '../products';
+import { produse } from '../products';
 import { CartService } from '../cart.service';
 
 @Component({
@@ -15,16 +15,16 @@ export class ProductDetailsComponent implements OnInit {
     private cartService: CartService
   ) { }
 
-   addToCart(product) {
+   addToCart(produs) {
     window.alert('Your product has been added to the cart!');
-    this.cartService.addToCart(product);
+    this.cartService.addToCart(produs);
   }
 
 
 
   ngOnInit() {
   this.route.paramMap.subscribe(params => {
-  this.product = products[+params.get('productId')];
+  this.produs = produse[+params.get('produstId')];
   });
 }
 

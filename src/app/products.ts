@@ -1,18 +1,18 @@
-export const products = [
+export const produse = [
   {
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    nume: 'Phone XL',
+    pret: 799,
+    descriere: 'A large phone with one of the best screens'
   },
   {
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    nume: 'Phone Mini',
+    pret: 699,
+    descriere: 'A great phone with one of the best cameras'
   },
   {
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
+    nume: 'Phone Standard',
+    pret: 299,
+    descriere: 'xxxxxxxxxxxxxxxxxxx'
   }
 ];
 
